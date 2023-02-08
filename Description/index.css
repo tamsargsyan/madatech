@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(
+      0deg,
+      rgba(68, 114, 196, 0.1),
+      rgba(68, 114, 196, 0.1)
+    ),
+    #ffffff;
+  padding: 0;
+  height: calc(100vh - 70px);
+  padding: 5rem;
+}
+.nav-tabs {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #4472c4;
+}
+.nav-tabs .nav-link.active {
+  background: transparent;
+  border: none;
+  color: #4472c4;
+  border-bottom: 2px solid #4472c4;
+}
+.tab-pane {
+  background-color: #fff;
+  padding-top: 30px !important;
+}
+.footer {
+  height: 70px;
+  box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25);
+}
